@@ -41,186 +41,45 @@ export const scienceLessons = [
 
 export const scienceQuizzes = [
   {
-    lessonId: 1,
-    questions: [
-      {
-        id: 1,
-        question: "What is the role of producers in the food chain?",
-        options: [
-          "Converting sunlight into chemical energy",
-          "Hunting and eating other organisms",
-          "Breaking down dead organisms",
-          "Competing for resources",
-          "Aiding in pollination",
-        ],
-        correctAnswer: "Converting sunlight into chemical energy",
-      },
-      {
-        id: 2,
-        question:
-          "Which group of consumers primarily feeds on plants in the food chain?",
-        options: [
-          "Carnivores",
-          "Herbivores",
-          "Omnivores",
-          "Decomposers",
-          "Producers",
-        ],
-        correctAnswer: "Herbivores",
-      },
-      {
-        id: 3,
-        question: "Name one example of a decomposer in an ecosystem.",
-        options: ["Lion", "Mushroom", "Oak tree", "Rabbit", "Hummingbird"],
-        correctAnswer: "Mushroom",
-      },
-      {
-        id: 4,
-        question: "What do omnivores eat in the food chain?",
-        options: [
-          "Only other animals",
-          "Only plants",
-          "Both plants and animals",
-          "Nothing, they produce their own food",
-          "Only dead organisms",
-        ],
-        correctAnswer: "Both plants and animals",
-      },
-      {
-        id: 5,
-        question: "How do decomposers contribute to the ecosystem?",
-        options: [
-          "By hunting and capturing prey",
-          "By converting sunlight into energy",
-          "By breaking down dead organisms and returning nutrients to the soil",
-          "By photosynthesizing to produce oxygen",
-          "By competing with herbivores for food",
-        ],
-        correctAnswer:
-          "By breaking down dead organisms and returning nutrients to the soil",
-      },
-    ],
-  },
-  {
-    lessonId: 2,
-    questions: [
-      {
-        id: 1,
-        question: "What is predation in an ecosystem?",
-        options: [
-          "Cooperation between organisms",
-          "One organism hunting and eating another",
-          "Sharing resources without competition",
-          "A symbiotic relationship",
-          "A type of competition",
-        ],
-        correctAnswer: "One organism hunting and eating another",
-      },
-      {
-        id: 2,
-        question:
-          "In a competitive interaction, organisms are typically competing for:",
-        options: [
-          "Money",
-          "Resources like food and shelter",
-          "Space travel opportunities",
-          "Oxygen",
-          "Sunshine",
-        ],
-        correctAnswer: "Resources like food and shelter",
-      },
-      {
-        id: 3,
-        question: "Give an example of mutualism in nature.",
-        options: [
-          "Lions hunting zebras",
-          "Birds competing for nesting sites",
-          "Bees pollinating flowers",
-          "Wolves hunting rabbits",
-          "Plants and herbivores competing for sunlight",
-        ],
-        correctAnswer: "Bees pollinating flowers",
-      },
-      {
-        id: 4,
-        question: "What is the primary purpose of competition in an ecosystem?",
-        options: [
-          "To ensure the extinction of weaker species",
-          "To promote cooperation between species",
-          "To regulate populations and allocate resources",
-          "To encourage migration of species",
-          "To eliminate predators",
-        ],
-        correctAnswer: "To regulate populations and allocate resources",
-      },
-      {
-        id: 5,
-        question:
-          "How can predation help maintain the balance of species in an ecosystem?",
-        options: [
-          "By reducing the number of predators",
-          "By reducing the number of prey species",
-          "By controlling the population of prey species",
-          "By promoting competition between predators",
-          "By encouraging mutualistic relationships",
-        ],
-        correctAnswer: "By controlling the population of prey species",
-      },
-    ],
-  },
-  {
     lessonId: 3,
     questions: [
       {
         id: 1,
-        question: "What is one of the main principles of cell theory?",
+        question:
+          "Who is credited with the discovery of cells using a simple microscope?",
         options: [
-          "Cells can arise from non-living matter",
-          "All cells are exactly the same in structure and function",
-          "Cells can only come from pre-existing cells",
-          "Cells can divide into atoms",
-          "Cells are made of minerals",
+          "Charles Darwin",
+          "Anton van Leeuwenhoek",
+          "Robert Hooke",
+          "Albert Einstein",
+          "Marie Curie",
         ],
-        correctAnswer:
-          "All cells are exactly the same in structure and function",
+        correctAnswer: "Robert Hooke",
       },
       {
         id: 2,
         question:
-          "What is the basic unit of structure and function in organisms according to cell theory?",
+          "According to cell theory, what is the basic unit of structure and function in all organisms?",
         options: ["Atoms", "Cells", "Molecules", "Tissues", "Organs"],
         correctAnswer: "Cells",
       },
       {
         id: 3,
         question:
-          "Which scientist is credited with developing the cell theory?",
-        options: [
-          "Charles Darwin",
-          "Albert Einstein",
-          "Anton van Leeuwenhoek",
-          "Robert Hooke",
-          "Marie Curie",
-        ],
-        correctAnswer: "Robert Hooke",
-      },
-      {
-        id: 4,
-        question:
-          "In the cell theory, what does it mean that 'cells can only arise from pre-existing cells'?",
+          "What does it mean when cell theory states that 'cells can only arise from pre-existing cells'?",
         options: [
           "Cells can never die",
-          "Cells can divide to create new cells",
           "Cells can only be formed from non-living matter",
+          "Cells can divide to create new cells",
           "Cells are immortal",
           "Cells cannot reproduce",
         ],
         correctAnswer: "Cells can divide to create new cells",
       },
       {
-        id: 5,
+        id: 4,
         question:
-          "Why is the cell theory considered one of the most fundamental principles in biology?",
+          "Why is cell theory considered one of the most fundamental principles in biology?",
         options: [
           "Because it explains the origin of life on Earth",
           "Because it describes the process of evolution",
@@ -231,13 +90,26 @@ export const scienceQuizzes = [
         correctAnswer:
           "Because it provides the framework for understanding the structure and function of living organisms",
       },
+      {
+        id: 5,
+        question:
+          "Which scientist is known for his observations of cork cells under a microscope, leading to the term 'cell'?",
+        options: [
+          "Charles Darwin",
+          "Anton van Leeuwenhoek",
+          "Robert Hooke",
+          "Albert Einstein",
+          "Marie Curie",
+        ],
+        correctAnswer: "Robert Hooke",
+      },
     ],
   },
   {
     lessonId: 4,
     questions: [
       {
-        id: 1,
+        id: 6,
         question:
           "What is a feature unique to plant cells and not found in animal cells?",
         options: [
@@ -250,7 +122,7 @@ export const scienceQuizzes = [
         correctAnswer: "Cell wall",
       },
       {
-        id: 2,
+        id: 7,
         question:
           "Which organelle is responsible for photosynthesis in plant cells?",
         options: [
@@ -263,7 +135,7 @@ export const scienceQuizzes = [
         correctAnswer: "Chloroplasts",
       },
       {
-        id: 3,
+        id: 8,
         question: "What is the role of centrioles in animal cells?",
         options: [
           "Photosynthesis",
@@ -275,7 +147,7 @@ export const scienceQuizzes = [
         correctAnswer: "Cell division",
       },
       {
-        id: 4,
+        id: 9,
         question:
           "Both plant and animal cells have a nucleus. What is the function of the nucleus?",
         options: [
@@ -289,7 +161,7 @@ export const scienceQuizzes = [
           "Control center of the cell, containing genetic material",
       },
       {
-        id: 5,
+        id: 10,
         question:
           "Which organelle is responsible for breaking down cellular waste and recycling materials in both plant and animal cells?",
         options: [

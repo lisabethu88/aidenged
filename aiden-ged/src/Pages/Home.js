@@ -10,7 +10,7 @@ export const Home = () => {
   return (
     <main className="App">
       <section className="lessons">
-        <h2>Lessons</h2>
+        <h2>Yummy GED Lessons</h2>
         <img width="75px" src={arrows} alt="arrows" />
         <section>
           <Link to={`/science`}>
@@ -39,16 +39,13 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          <h3>Yummy WTF Math Lessons & Quizzes</h3>
+          <h3>Yummy GED Math Lessons & Quizzes</h3>
           <ol>
-            <li>Absolute Value</li>
             <li>Ordering Operations Basics</li>
             <li>Ratios</li>
           </ol>
-          <h3>Yummy WTF Science Lessons & Quizzes</h3>
+          <h3>Yummy GED Science Lessons & Quizzes</h3>
           <ol>
-            <li>The Food Chain</li>
-            <li>Relationships between organisms</li>
             <li>Cell Theory</li>
             <li>Plant and Animal Cells</li>
           </ol>
