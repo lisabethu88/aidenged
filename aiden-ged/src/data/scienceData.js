@@ -2,24 +2,6 @@
 
 export const scienceLessons = [
   {
-    id: 1,
-    subject: "science",
-    title: "The Food Chain",
-    introduction:
-      "The food chain is a fundamental concept in ecology that describes the flow of energy and nutrients through ecosystems. It encompasses the interconnected relationships between various organisms and their roles in the transfer of food energy. Understanding the food chain is crucial for comprehending how ecosystems function and the dependencies that exist between different species.",
-    mainPoints:
-      "The food chain consists of three main components:\n\nProducers: These are the primary energy converters in the food chain. They include plants and other autotrophic organisms capable of photosynthesis. Through this process, they convert sunlight into chemical energy, primarily in the form of glucose.\nConsumers: Consumers are organisms that rely on others for their energy needs. They are categorized into three groups:\nHerbivores: These are primary consumers that feed on plants and plant materials.\nCarnivores: These are secondary consumers that primarily prey on other animals.\nOmnivores: These consumers have a more varied diet, feeding on both plants and animals.\nDecomposers: Decomposers play a crucial role in recycling nutrients within an ecosystem. They break down dead organisms and organic matter, returning essential nutrients to the soil for use by producers.",
-  },
-  {
-    id: 2,
-    subject: "science",
-    title: "Relationships Between Organisms",
-    introduction:
-      "Ecosystems are dynamic and complex systems where organisms interact with one another and their environment. The relationships between organisms within an ecosystem are multifaceted, influencing population dynamics and the overall health of the ecosystem. Understanding these relationships is essential for ecological studies and conservation efforts.",
-    mainPoints:
-      "Ecosystems involve various relationships between organisms:\n\nPredation: When one organism (predator) hunts and eats another organism (prey).\nCompetition: Organisms in the same ecosystem may compete for resources like food, water, and shelter.\nMutualism: Some organisms have mutually beneficial relationships, where both partners benefit.",
-  },
-  {
     id: 3,
     subject: "science",
     title: "Cell Theory",
