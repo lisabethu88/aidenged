@@ -39,18 +39,31 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          <h3>Math</h3>
+          <h3>Yummy WTF Math Lessons & Quizzes</h3>
           <ol>
             <li>Absolute Value</li>
             <li>Ordering Operations Basics</li>
-            <li>Fractions, Decimals, and Percentages </li>
             <li>Ratios</li>
+          </ol>
+          <h3>Yummy WTF Science Lessons & Quizzes</h3>
+          <ol>
+            <li>The Food Chain</li>
+            <li>Relationships between organisms</li>
+            <li>Cell Theory</li>
+            <li>Plant and Animal Cells</li>
+          </ol>
+          {/* <h3>Math</h3>
+          <ol>
+           
+            
+            <li>Fractions, Decimals, and Percentages </li>
+            
             <li>Ratios and Scales</li>
           </ol>
           <h3>Language Arts (Writing)</h3>
           <ul>
             <li>Do a prompt in the essay book</li>
-          </ul>
+          </ul> */}
         </section>
       </section>
     </main>
