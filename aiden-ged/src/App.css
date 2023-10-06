@@ -46,9 +46,6 @@ main section {
   width: fit-content;
 }
 
-img {
-  width: 25%;
-}
 .lessons-section {
   display: flex;
   justify-content: center;
