@@ -40,13 +40,15 @@ main {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  margin-top: 50px;
 }
 
 main section {
-  margin: 0px;
+  width: fit-content;
 }
 
+img {
+  width: 25%;
+}
 .lessons-section {
   display: flex;
   justify-content: center;
@@ -76,6 +78,7 @@ main section {
   background-color: rgba(0, 0, 0, 0);
   margin: 50px;
   padding: 30px;
+  width: 350px;
 }
 
 .board:after {
