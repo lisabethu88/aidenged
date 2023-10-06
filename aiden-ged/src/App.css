@@ -287,3 +287,17 @@ button:disabled {
 .example-problems {
   white-space: pre-wrap;
 }
+
+@media screen and (max-width: 1200px) {
+  main {
+    flex-direction: column;
+  }
+
+  .lessons-section {
+    flex-direction: column;
+  }
+
+  .quiz-container {
+    flex-direction: column;
+  }
+}

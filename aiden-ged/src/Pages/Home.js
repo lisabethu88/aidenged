@@ -9,6 +9,24 @@ export const Home = () => {
   const d = new Date();
   return (
     <main className="App">
+      <section>
+        <h2>
+          Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
+        </h2>
+        <section className="board">
+          <h3>Yummy GED Math Lessons & Quizzes</h3>
+          <ol>
+            <li>Ordering Operations Basics</li>
+            <li>Ratios</li>
+          </ol>
+          <h3>Yummy GED Science Lessons & Quizzes</h3>
+          <ol>
+            <li>Cell Theory</li>
+            <li>Plant and Animal Cells</li>
+          </ol>
+        </section>
+      </section>{" "}
+      <img width="500px" src={braixen} alt="braixen" />
       <section className="lessons">
         <h2>Yummy GED Lessons</h2>
         <img width="75px" src={arrows} alt="arrows" />
@@ -16,7 +34,7 @@ export const Home = () => {
           <Link to={`/science`}>
             <Button className="lesson-btn">Science</Button>
           </Link>
-        </section>
+        </section>{" "}
         <section>
           <Link to={`/social-studies`}>
             <Button className="lesson-btn">Social Studies</Button>
@@ -33,36 +51,6 @@ export const Home = () => {
           </Link>
         </section>
       </section>{" "}
-      <img width="500px" src={braixen} alt="braixen" />
-      <section>
-        <h2>
-          Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
-        </h2>
-        <section className="board">
-          <h3>Yummy GED Math Lessons & Quizzes</h3>
-          <ol>
-            <li>Ordering Operations Basics</li>
-            <li>Ratios</li>
-          </ol>
-          <h3>Yummy GED Science Lessons & Quizzes</h3>
-          <ol>
-            <li>Cell Theory</li>
-            <li>Plant and Animal Cells</li>
-          </ol>
-          {/* <h3>Math</h3>
-          <ol>
-           
-            
-            <li>Fractions, Decimals, and Percentages </li>
-            
-            <li>Ratios and Scales</li>
-          </ol>
-          <h3>Language Arts (Writing)</h3>
-          <ul>
-            <li>Do a prompt in the essay book</li>
-          </ul> */}
-        </section>
-      </section>
     </main>
   );
 };
