@@ -14,15 +14,36 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          <h3>Yummy GED Math Lessons & Quizzes</h3>
+          <p>
+            <b>NOTE:</b> These assignments will be due Tuesday evening by
+            7:00pm.
+          </p>
+          <h3>Khan Academy - Science</h3>
+          <p>
+            <b>Instructions:</b> Watch the video, read review, and do quiz.
+            Write down the results and share with Titi.
+          </p>
           <ol>
-            <li>Ordering Operations Basics</li>
-            <li>Ratios</li>
+            <a href="https://www.khanacademy.org/science/high-school-biology/hs-cells/hs-plant-vs-animal-cells/v/overview-of-animal-and-plant-cells">
+              <li>Khan Academy - Plant and Animal Cells</li>
+            </a>
           </ol>
-          <h3>Yummy GED Science Lessons & Quizzes</h3>
+          <h3>Onsego - Science </h3>
           <ol>
-            <li>Cell Theory</li>
-            <li>Plant and Animal Cells</li>
+            <li>Photosynthesis</li>
+            <li>The Top Four Kingdoms </li>
+            <li>Organization of Life Practice Test </li>
+            <li>Organ Systems </li>
+            <li>Nervous System </li>
+            <li>The Circulatory System </li>
+          </ol>
+          <h3>Onsego - History</h3>
+          <ol>
+            <li>The Judicial Branch</li>
+            <li> The Supreme Court</li>
+            <li>State and Local Government</li>
+            <li>Voting and Elections</li>
+            <li>Political Parties and Politics</li>
           </ol>
         </section>
       </section>{" "}
