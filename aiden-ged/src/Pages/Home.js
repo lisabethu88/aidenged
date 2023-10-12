@@ -14,8 +14,14 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          {/* <h3>Khan Academy - Science</h3>
+          <h3>Khan Academy - Science</h3>
           <p>
+            {" "}
+            <p>
+              <em>
+                <b>DUE:</b> Oct 13th by 10AM
+              </em>
+            </p>
             <b>Instructions:</b> Watch the video, read review, and do quiz.
             Write down the results and share with Titi.
           </p>
@@ -23,13 +29,8 @@ export const Home = () => {
             <a href="https://www.khanacademy.org/science/high-school-biology/hs-cells/hs-plant-vs-animal-cells/v/overview-of-animal-and-plant-cells">
               <li>Khan Academy - Plant and Animal Cells</li>
             </a>
-            <li>
-              <em>
-                <b>DUE:</b> Oct 9th by 8pm
-              </em>
-            </li>
           </ul>
-          <h3>Onsego - Science </h3>
+          {/*  <h3>Onsego - Science </h3>
           <ul>
             <li>
               <em>
@@ -56,11 +57,9 @@ export const Home = () => {
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 11th by 8pm
+                <b>DUE:</b> Oct 13th by 10AM
               </em>
             </li>
-            <li>Rates and Unit Rates</li>
-            <li>Solving Percent Problems</li>
             <li>Number Sense Practice Test</li>
             <li>Review of Challenging Questions</li>
           </ul>
@@ -68,11 +67,9 @@ export const Home = () => {
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 11th by 8pm
+                <b>DUE:</b> Oct 13th by 10AM
               </em>
             </li>
-            <li>Civil and Criminal Law</li>
-            <li>US Government Practice Test</li>
             <li>Review of Challenging Topics</li>
           </ul>
           {/* <h3>Onsego - Language Arts</h3>
