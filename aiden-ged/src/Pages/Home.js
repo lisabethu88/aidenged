@@ -14,35 +14,17 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          <h3>Khan Academy - Science</h3>
-          <p>
-            {" "}
-            <p>
-              <em>
-                <b>DUE:</b> Oct 13th by 10AM
-              </em>
-            </p>
-            <b>Instructions:</b> Watch the video, read review, and do quiz.
-            Write down the results and share with Titi.
-          </p>
-          <ul>
-            <a href="https://www.khanacademy.org/science/high-school-biology/hs-cells/hs-plant-vs-animal-cells/v/overview-of-animal-and-plant-cells">
-              <li>Khan Academy - Plant and Animal Cells</li>
-            </a>
-          </ul>
-          {/*  <h3>Onsego - Science </h3>
+          {/* <h3>Onsego - Science </h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 9th by 8pm
+                <b>DUE:</b> Oct 13th by 8pm
               </em>
             </li>
-            <li>Photosynthesis</li>
-            <li>The Top Four Kingdoms </li>
-            <li>Organization of Life Practice Test </li>
-            <li>Organ Systems </li>
-            <li>Nervous System </li>
-            <li>The Circulatory System </li>
+            <li>Respiratory System</li>
+            <li>Skeletal System</li>
+            <li>Muscular System</li>
+            <li>Integumentary System</li>
           </ul> */}
           {/* <h3>Language Arts (Writing)</h3>
           <ul>
@@ -53,7 +35,7 @@ export const Home = () => {
             </li>
             <li>Do a prompt in essay book.</li>
           </ul> */}
-          <h3>Onsego - Math</h3>
+          {/* <h3>Onsego - Math</h3>
           <ul>
             <li>
               <em>
@@ -62,28 +44,33 @@ export const Home = () => {
             </li>
             <li>Number Sense Practice Test</li>
             <li>Review of Challenging Questions</li>
-          </ul>
+          </ul> */}
           <h3>Onsego - Social Studies</h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 13th by 10AM
+                <b>DUE:</b> Oct 16th by 8pm
               </em>
             </li>
-            <li>Review of Challenging Topics</li>
+            <li>Did Columbus Discover America?</li>
+            <li>Jamestown</li>
+            <li>New England</li>
+            <li>The Thirteen Colonies</li>
+            <li>13 Colonies - Early Conflicts with Britain</li>
+            <li>Conflicts Grow</li>
           </ul>
-          {/* <h3>Onsego - Language Arts</h3>
+          <h3>Onsego - Language Arts</h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 10th by 8pm
+                <b>DUE:</b> Oct 16th by 8pm
               </em>
             </li>
-            <li>Parts of Speech</li>
-            <li>Subjects and Verbs</li>
-            <li>Pronoun Agreement</li>
-            <li>Independent and Dependent Clauses</li>
-          </ul> */}
+            <li>Conjunctions</li>
+            <li>Sentence Types</li>
+            <li>Sentence Fragments</li>
+            <li>Grammar Practice Test</li>
+          </ul>
         </section>
       </section>{" "}
       <img width="500px" src={braixen} alt="braixen" />
