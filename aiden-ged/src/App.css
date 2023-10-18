@@ -295,6 +295,7 @@ button:disabled {
 @media screen and (max-width: 1200px) {
   main {
     flex-direction: column;
+    align-items: center;
   }
 
   .lessons-section {

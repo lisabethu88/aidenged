@@ -14,27 +14,27 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          {/* <h3>Onsego - Science </h3>
+          <h3>Onsego - Science </h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 13th by 8pm
+                <b>DUE:</b> Oct 18th by 10AM
               </em>
             </li>
             <li>Respiratory System</li>
             <li>Skeletal System</li>
             <li>Muscular System</li>
             <li>Integumentary System</li>
-          </ul> */}
-          {/* <h3>Language Arts (Writing)</h3>
+          </ul>
+          <h3>Language Arts (Writing)</h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 9th by 8pm
+                <b>DUE:</b> Oct 17th by 10AM
               </em>
             </li>
             <li>Do a prompt in essay book.</li>
-          </ul> */}
+          </ul>
           {/* <h3>Onsego - Math</h3>
           <ul>
             <li>
@@ -45,7 +45,7 @@ export const Home = () => {
             <li>Number Sense Practice Test</li>
             <li>Review of Challenging Questions</li>
           </ul> */}
-          <h3>Onsego - Social Studies</h3>
+          {/* <h3>Onsego - Social Studies</h3>
           <ul>
             <li>
               <em>
@@ -58,18 +58,18 @@ export const Home = () => {
             <li>The Thirteen Colonies</li>
             <li>13 Colonies - Early Conflicts with Britain</li>
             <li>Conflicts Grow</li>
-          </ul>
+          </ul> */}
           <h3>Onsego - Language Arts</h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 16th by 8pm
+                <b>DUE:</b> Oct 18th by 10AM
               </em>
             </li>
-            <li>Conjunctions</li>
-            <li>Sentence Types</li>
-            <li>Sentence Fragments</li>
-            <li>Grammar Practice Test</li>
+            <li>Informal and Formal Uses of English</li>
+            <li>Frequently Confused Words</li>
+            <li>Misplaced Modifiers</li>
+            <li>Parallelism</li>
           </ul>
         </section>
       </section>{" "}
