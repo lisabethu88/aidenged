@@ -14,18 +14,19 @@ export const Home = () => {
           Homework {d.getMonth() + 1}/{d.getDate()}/{d.getFullYear()}
         </h2>
         <section className="board">
-          {/* <h3>Onsego - Science </h3>
+          <h3>Onsego - Science </h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 18th by 10AM
+                <b>DUE:</b> Oct 24th by 10AM
               </em>
             </li>
-            <li>Respiratory System</li>
-            <li>Skeletal System</li>
-            <li>Muscular System</li>
-            <li>Integumentary System</li>
-          </ul> */}
+            <li>Endocrine System</li>
+            <li>Excretory System</li>
+            <li>Immune System</li>
+            <li>Lymph System</li>
+            <li>Metabolism</li>
+          </ul>
           {/* <h3>Language Arts (Writing)</h3>
           <ul>
             <li>
@@ -35,7 +36,7 @@ export const Home = () => {
             </li>
             <li>Do a prompt in essay book.</li>
           </ul> */}
-          <h3>Onsego - Math</h3>
+          {/* <h3>Onsego - Math</h3>
           <ul>
             <li>
               <em>
@@ -47,8 +48,8 @@ export const Home = () => {
             <li>Dividing Fractions</li>
             <li>3 ways to Find a Common Denominator</li>
             <li>Adding Fractions</li>
-          </ul>
-          <h3>Onsego - Social Studies</h3>
+          </ul> */}
+          {/* <h3>Onsego - Social Studies</h3>
           <ul>
             <li>
               <em>
@@ -60,19 +61,22 @@ export const Home = () => {
             <li>Winning the War</li>
             <li>A New Nation</li>
             <li>Constitutional Convention</li>
-          </ul>
-          {/* <h3>Onsego - Language Arts</h3>
+          </ul> */}
+          <h3>Onsego - Language Arts</h3>
           <ul>
             <li>
               <em>
-                <b>DUE:</b> Oct 18th by 10AM
+                <b>DUE:</b> Oct 24th by 10AM
               </em>
             </li>
-            <li>Informal and Formal Uses of English</li>
-            <li>Frequently Confused Words</li>
-            <li>Misplaced Modifiers</li>
-            <li>Parallelism</li>
-          </ul> */}
+            <li>English Usage Practice Test Topics</li>
+
+            <li>Author, Audience, and Purpose</li>
+            <li>5 Text Structures</li>
+            <li>Identify Stated Main Idea</li>
+            <li>Supporting Details</li>
+            <li>Explicit and Implicit</li>
+          </ul>
         </section>
       </section>{" "}
       <img width="500px" src={braixen} alt="braixen" />
