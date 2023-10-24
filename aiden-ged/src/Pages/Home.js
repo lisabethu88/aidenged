@@ -42,12 +42,7 @@ export const Home = () => {
               <em>
                 <b>DUE:</b> Oct 19th by 10AM
               </em>
-            </li>
-            <li>Basics of Fractions</li>
-            <li>Multiplying Fractions</li>
-            <li>Dividing Fractions</li>
-            <li>3 ways to Find a Common Denominator</li>
-            <li>Adding Fractions</li>
+    
           </ul> */}
           {/* <h3>Onsego - Social Studies</h3>
           <ul>
